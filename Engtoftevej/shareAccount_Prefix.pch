@@ -1,0 +1,40 @@
+
+#import <Availability.h>
+
+#define APPLICATION_FONT @"Verdana"
+#define APPLICATION_FONT_BOLD @"Verdana-Bold"
+
+//#define APPLICATION_FONT @"FoundryFormSans-Demi"
+//#define APPLICATION_FONT_BOLD @"FoundryFormSans-Demi"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
+#endif
+
+// The settings below is taken from http://www.cimgf.com/2010/05/02/my-current-prefix-pch-file/
+#ifdef DEBUG
+#define DLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#define ALog(...) [[NSAssertionHandler currentHandler] handleFailureInFunction:[NSString stringWithCString:__PRETTY_FUNCTION__ encoding:NSUTF8StringEncoding] file:[NSString stringWithCString:__FILE__ encoding:NSUTF8StringEncoding] lineNumber:__LINE__ description:__VA_ARGS__]
+#else
+#define DLog(...) do { } while (0)
+#ifndef NS_BLOCK_ASSERTIONS
+#define NS_BLOCK_ASSERTIONS
+#endif
+#define ALog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#endif
+
+#define ZAssert(condition, ...) do { if (!(condition)) { ALog(__VA_ARGS__); }} while(0)
+
+#define DIALOG_ANIMATED NO
+
+#define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+
+#define SharedAppDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])

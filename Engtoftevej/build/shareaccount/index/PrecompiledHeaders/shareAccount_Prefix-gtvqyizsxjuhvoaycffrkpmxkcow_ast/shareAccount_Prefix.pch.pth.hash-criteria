@@ -1,0 +1,34 @@
+Contents of /Users/Tsan/Desktop/Dropbox/Private projekter/Engtoftevej/shareAccount_Prefix.pch
+4.0 (tags/Apple/clang-421.0.60) (based on LLVM 3.1svn)
+i386-apple-darwin11.4.0
+-x
+objective-c
+-arch
+i386
+-fmessage-length=0
+-std=c99
+-fpascal-strings
+-O0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+-fexceptions
+-fasm-blocks
+-mmacosx-version-min=10.6
+-g
+-fvisibility=hidden
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-DIBOutlet=__attribute__((iboutlet))
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))
+-DIBAction=void)__attribute__((ibaction)
+-D__IPHONE_OS_VERSION_MIN_REQUIRED=40300
+-iquote
+-iquote
+-I/Users/Tsan/Desktop/Dropbox/Private projekter/Engtoftevej/build/shareAccount/Build/Products/Debug-iphonesimulator/include
+-I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2
+-F/Users/Tsan/Desktop/Dropbox/Private projekter/Engtoftevej/build/shareAccount/Build/Products/Debug-iphonesimulator
+-ferror-limit=10
+-working-directory=/Users/Tsan/Desktop/Dropbox/Private projekter/Engtoftevej
+-Xclang
+-detailed-preprocessing-record
+SDK_PRODUCT_BUILD_VERSION=9B176

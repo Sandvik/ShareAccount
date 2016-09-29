@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Help_deposit10</key>
+	<string>Here you can either switch to a new user or create new user</string>
+	<key>Help_deposit11</key>
+	<string>Here you can either open an existing account or create a new account</string>
+	<key>Help_deposit12</key>
+	<string>Here you can add people to the account, see who is affiliated to the accounts and chat with the people that are included in account</string>
+	<key>Help_deposit13</key>
+	<string>Here appears the list of all entries in the accounts. You can tap an entry and view an image attached to the posting</string>
+	<key>Help_deposit14</key>
+	<string>Here you can tap to see the current accounting or see a list of all completed accounting</string>
+	<key>Help_deposit15</key>
+	<string>Here you can see the current accounting or see a list of all completed accounting</string>
+	<key>Help_deposit16</key>
+	<string>Here you can take a picture of your receipt or of the thing you bought</string>
+	<key>Help_deposit17</key>
+	<string>When you press this button, you close the view and returns to the entry list</string>
+	<key>Help_deposit18</key>
+	<string>When you press this button you upload the posting, and you have the option to add a new</string>
+	<key>Help_deposit19</key>
+	<string>When you press this button, you create a new account</string>
+</dict>
+</plist>

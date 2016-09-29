@@ -1,0 +1,142 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* RSSReaderAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 744}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{0, 472}";
+		};
+	};
+	1D3623250D0F684500981E51 /* RSSReaderAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 744}}";
+			sepNavSelRange = "{377, 0}";
+			sepNavVisRange = "{0, 1623}";
+			sepNavWindowFrame = "{{174, 210}, {750, 558}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* RSSReader */ = {
+		activeExec = 0;
+		executables = (
+			8FE641600F875A6600D7FFC9 /* RSSReader */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8FE641600F875A6600D7FFC9 /* RSSReader */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* RSSReader */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* RSSReader */,
+		);
+		codeSenseManager = 8FE641710F875A7600D7FFC9 /* Code sense */;
+		executables = (
+			8FE641600F875A6600D7FFC9 /* RSSReader */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					951,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 260528742;
+			PBXWorkspaceStateSaveDate = 260528742;
+		};
+		sourceControlManager = 8FE641700F875A7600D7FFC9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8FE641600F875A6600D7FFC9 /* RSSReader */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RSSReader;
+		sourceDirectories = (
+		);
+	};
+	8FE641700F875A7600D7FFC9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	8FE641710F875A7600D7FFC9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8FE641BC0F88650000D7FFC9 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 744}}";
+			sepNavSelRange = "{148, 214}";
+			sepNavVisRange = "{0, 363}";
+		};
+	};
+	8FE641BD0F88650000D7FFC9 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 744}}";
+			sepNavSelRange = "{310, 0}";
+			sepNavVisRange = "{0, 1208}";
+		};
+	};
+	8FE641DE0F88942000D7FFC9 /* BrowseViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 744}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 243}";
+		};
+	};
+	8FE641DF0F88942000D7FFC9 /* BrowseViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 2044}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1598, 1894}";
+		};
+	};
+	8FE641E60F88954B00D7FFC9 /* RecentViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 744}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 243}";
+		};
+	};
+	8FE641E90F88961600D7FFC9 /* FavouritesViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 744}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 251}";
+		};
+	};
+}
